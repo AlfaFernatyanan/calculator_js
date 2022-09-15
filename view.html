@@ -7,19 +7,33 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      .angka {
+        justify-content: center;
+        background-color: aqua;
+      }
+      .empty {
+        width: 100px;
+      }
+    </style>
     <div class="title"><h1>calculator</h1></div>
     <div class="hasil"><h2 id="result">hasil</h2></div>
     <div class="angka">
       <button onclick="tombol(1)">1</button>
       <button onclick="tombol(2)">2</button>
       <button onclick="tombol(3)">3</button>
+      <br />
       <button onclick="tombol(4)">4</button>
       <button onclick="tombol(5)">5</button>
       <button onclick="tombol(6)">6</button>
+      <br />
       <button onclick="tombol(7)">7</button>
       <button onclick="tombol(8)">8</button>
       <button onclick="tombol(9)">9</button>
+      <br />
+      <div class="empty"></div>
       <button onclick="tombol(0)">0</button>
+      <div class="empty"></div>
     </div>
     <div class="Operator">
       <button>x</button>
