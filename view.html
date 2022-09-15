@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title"><h1>calculator</h1></div>
+    <div class="hasil"><h2 id="result">hasil</h2></div>
+    <div class="angka">
+      <button onclick="tombol(1)">1</button>
+      <button onclick="tombol(2)">2</button>
+      <button onclick="tombol(3)">3</button>
+      <button onclick="tombol(4)">4</button>
+      <button onclick="tombol(5)">5</button>
+      <button onclick="tombol(6)">6</button>
+      <button onclick="tombol(7)">7</button>
+      <button onclick="tombol(8)">8</button>
+      <button onclick="tombol(9)">9</button>
+      <button onclick="tombol(0)">0</button>
+    </div>
+    <div class="Operator">
+      <button>x</button>
+      <button>:</button>
+      <button>+</button>
+      <button>-</button>
+    </div>
+
+    <script>
+      var result = document.getElementById("result");
+      function tombol(angka) {
+        result.innerText = angka;
+      }
+    </script>
+  </body>
+</html>
